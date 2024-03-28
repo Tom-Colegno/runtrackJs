@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nom": "Dupont",
+    "prenom": "Antoine",
+    "email": "antoine.dupont@gmail.com"
+  },
+  {
+    "id": 2,
+    "nom": "Ntamack",
+    "prenom": "Romain",
+    "email": "romain.ntamack@gmail.com"
+  },
+  {
+    "id": 3,
+    "nom": "Willis",
+    "prenom": "Jack",
+    "email": "jack.willis@gmail.com"
+  },
+  {
+    "id": 4,
+    "nom": "Thibaud",
+    "prenom": "Flament",
+    "email": "thibaud.flament@gmail.com"
+  },
+  {
+    "id": 5,
+    "nom": "Julien",
+    "prenom": "Marchand",
+    "email": "julien.marchand@gmail.com"
+  },
+  {
+    "id": 6,
+    "nom": "Cyril",
+    "prenom": "Baille",
+    "email": "cyril.baille@gmail.com"
+  }
+]

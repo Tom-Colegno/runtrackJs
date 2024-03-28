@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="#">
+</head>
+<body>
+
+  <header>
+  </header>
+
+  <main>
+
+    <body>
+      <form>
+          <label for="id">id :</label>
+          <input type="text" id="id">
+          <br>
+          <label for="nom">nom :</label>
+          <input type="text" id="nom">
+          <br>
+          <label for="type">type :</label>
+          <select id="type">
+              <option value="all">Tous</option>
+          </select>
+          <br>
+          <input type="button" value="filtrer" id="filtrer">
+      </form>
+      <table id="table">
+          <tr>
+              <th>id</th>
+              <th>nom</th>
+              <th>type</th>
+          </tr>
+      </table>
+      <div id="resultat"></div>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
