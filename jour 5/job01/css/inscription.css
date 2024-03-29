@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/*HEDER*/
+
+header {
+    background-color: #5cba6a;
+    padding: 10px 0;
+    border-radius: 15px;
+  }
+  
+  .header-content {
+    align-items: center;
+    margin-right: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 36px;
+    margin-left: 15px;
+  }
+  
+  header p {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+
+
+  /*FORMULAIRE*/
+
+.container {
+    color:#263238;
+    width: 30%;
+    padding: 3rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #b5c7d037;
+    margin-top: 50px;
+    box-shadow: 1px 2px 30px 8px rgba(0, 0, 0, 0.3);
+}
+
+label,
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    
+}
+
+button {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 1.2rem;
+  padding: 15px;
+  width: fit-content; 
+  color: #fff;
+  background-color: #5cba6a;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+    background-color: #215d30;
+}
+
+
+.erreur {
+    color: red;
+}
